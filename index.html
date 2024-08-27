@@ -162,14 +162,22 @@
 
     </header>
     
-    <main  class="md:container mx-auto">
+    <main  class="container mx-auto px-4">
 
     <!-- feaured bike section -->
-<section></section>
+<section class="container mx-auto px-5">
+  <h1 class="lg:text-5xl text-2xl font-bold text-center mb-12 ">Fetured Bikes In This Year</h1>
+
+  <div class="grid  grid-cols-1 lg:grid-cols-3 gap-14 py-20">
+    <img class="grayscale" src="./images/others/feature-bike.png" alt="">
+    <img src="./images/others/feature-bike.png" alt="">
+    <img class="grayscale" src="./images/others/feature-bike.png" alt="">
+  </div>
+</section>
 
 <!-- latest bike section -->
  <section>
-<h3 class="text-5xl font-bold text-center mb-12">Latest News</h3>
+<h3 class="lg:text-5xl text-3xl font-bold text-center mb-12">Latest News</h3>
 
 <!-- cards -->
  <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 ">
@@ -189,7 +197,7 @@
   <!-- card-2 -->
   <div class="card bg-base-100 w-96  border-2 p-4">
     <figure>
-    <img src="./images/others/latest1.png" alt="">
+    <img src="./images/others/latest2.png" alt="">
     </figure>
     <div class="card-body space-y-5">
       <h2 class="card-title">Ducati XDIAVEL S-73</h2>
@@ -202,7 +210,7 @@
   <!-- card-3 -->
   <div class="card bg-base-100 w-96  border-2 p-4">
     <figure>
-    <img src="./images/others/latest1.png" alt="">
+    <img src="./images/others/latest3.png" alt="">
     </figure>
     <div class="card-body space-y-5">
       <h2 class="card-title">Ducati XDIAVEL S-73</h2>
@@ -216,18 +224,103 @@
  </div>
  </section>
 
+ <!-- Happy client section -->
+  <section class="my-20 max-w-screen-lg mx-auto">
+
+    <h3 class="lg:text-5xl text-3xl font-bold text-center mb-16">Happy <span class="text-bike-primary">Client Says</span></h3>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+
+      <!-- first-client -->
+       <div class="border-2 rounded-md  px-10  text-center">
+        <div  class="w-40 h-40 inline-block mt-10 mb-5"><img  src="./images/others/user-1.png" alt=""></div>
+        <!-- text -->
+      <div class="text-center pb-16  space-y-4">
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, consectetur?
+          
+        </p>
+        <!-- rating -->
+        <div class="rating">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input
+            type="radio"
+            name="rating-2"
+            class="mask mask-star-2 bg-orange-400"
+            checked="checked" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+        <h3 class="text-sky-400 font-bold ">Regina Miles</h3>
+        <h3 class="font-bold">Banker</h3>
+      </div>
+       </div>
+
+      <!-- second-client -->
+      <div class="border-2 rounded-md  px-10  text-center">
+        <div  class="w-40 h-40 inline-block mt-10 mb-5"><img  src="./images/others/user-2.png" alt=""></div>
+        <!-- text -->
+      <div class="text-center pb-16  space-y-4">
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, consectetur?
+          
+        </p>
+        <!-- rating -->
+        <div class="rating">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input
+            type="radio"
+            name="rating-2"
+            class="mask mask-star-2 bg-orange-400"
+            checked="checked" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+        <h3 class="text-sky-400 font-bold ">Regina Miles</h3>
+        <h3 class="font-bold">Banker</h3>
+      </div>
+       </div>
+
+      <!--third-client -->
+      <div class="border-2 rounded-md  px-10  text-center">
+        <div  class="w-40 h-40 inline-block mt-10 mb-5"><img  src="./images/others/user-3.png" alt=""></div>
+        <!-- text -->
+      <div class="text-center pb-16  space-y-4">
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, consectetur?
+          
+        </p>
+        <!-- rating -->
+        <div class="rating">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input
+            type="radio"
+            name="rating-2"
+            class="mask mask-star-2 bg-orange-400"
+            checked="checked" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+        <h3 class="text-sky-400 font-bold ">Regina Miles</h3>
+        <h3 class="font-bold">Banker</h3>
+      </div>
+       </div>
+
+    </div>
+  </section>
+
  <!-- FAQ section -->
   <section class="my-24">
-    <h3 class="text-5xl font-bold text-center mb-12">Frequently Asked <span class="text-bike-primary">Questions</span></h3>
+    <h3 class="lg:text-5xl text-2xl font-bold text-center mb-12">Frequently Asked <span class="text-bike-primary">Questions</span></h3>
 
     <div class="hero ">
       <div class="hero-content flex-col lg:flex-row  ">
         <img
           src="./images/others/faq.png"
-          class="rounded-lg lg:mr-20 w-9/12 " />
+          class="rounded-lg lg:mr-20 " />
         
           <div >
-            <div class="join join-vertical lg:w-5/6 mx-auto space-y-5 ">
+            <div class="join join-vertical  space-y-5 ">
               <div class="collapse collapse-arrow join-item border-base-300 border">
                 <input type="radio" name="my-accordion-4" checked="checked" />
                 <div class="collapse-title text-xl font-medium">What are the most important things I should <br>
@@ -263,6 +356,50 @@
       </div>
     </div>
   </section>
+  
     </main>
+
+    <footer class="bg-[#0B0D17]">
+      <div class="container mx-auto px-4 py-20">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+
+          <div class="text-white text-center space-y-6">
+            <h3 class="text-lg font-semibold">Usefull Link</h3>
+            <ul class="space-y-4 text-xs">
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Blog</li>
+              <li>Contact Us</li>
+            </ul>
+           
+          </div>
+          <div class="text-white text-center space-y-6">
+            <h3 class="text-lg font-semibold">Contact Now</h3>
+            <ul class="space-y-4 text-xs">
+              <li>555 4th 5t NW, Washington <br>
+                DC 20530, United States</li>
+              <li>+88 01750 000 000 <br>
+                +88 01750 000 000</li>
+              <li>info@gmail.com <br>
+                info@gmail.com</li>
+              
+            </ul>
+           
+          </div>
+            
+          <!-- image -->
+           <div class="space-y-5 text-center">
+            <h3 class="text-white text-lg font-bold">Get App</h3>
+            <img class="w-32 mx-auto"  src="./images/others/ios.png" alt="">
+            <img class="w-32 mx-auto" src="./images/others/android.png" alt="">
+           </div>
+
+          
+        </div>
+        <p class="text-white text-center pt-20 text-xs">© 2024 bike. All rights reserved</p>
+      </div>
+    </footer>
+
+    
 </body>
 </html>
